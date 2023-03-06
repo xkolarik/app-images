@@ -1,0 +1,45 @@
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+
+server:
+  connection-timeout: 60000
+  session.timeout: 60000
+  port: 8085
+  servlet:
+    context-path: /api
+
+management:
+  security:
+    enabled: false
+  context-path: /api
+
+endpoints:
+  enabled: false
+  health:
+    enabled: true
+
+services-security:
+  username: one-dev
+  password: 008a8005-c66a-4888-b115-32d95572c213
+  role: API
+
+  spring:
+    kafka:
+      consumer:
+        bootstrap-servers: localhost:9092
+        group-id: group_id
+        auto-offset-reset: earliest
+        key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+        value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+        properties:
+          spring.json.trusted.packages: "com.br.mm.api.model"
+      producer:
+        bootstrap-servers: localhost:9092
+        key-serializer: org.apache.kafka.common.serialization.StringSerializer
+        value-serializer: org.springframework.kafka.support.serializer.JsonSerializer

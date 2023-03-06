@@ -1,0 +1,11 @@
+C:\Users\kolarik\Desktop\app-image\consumer\src\main\java\com\br\mm\service\impl\ImageServiceImpl.java
+C:\Users\kolarik\Desktop\app-image\consumer\src\main\java\com\br\mm\repository\ImageRepository.java
+C:\Users\kolarik\Desktop\app-image\consumer\src\main\java\com\br\mm\ImageApplication.java
+C:\Users\kolarik\Desktop\app-image\consumer\src\main\java\com\br\mm\config\BeanConfiguration.java
+C:\Users\kolarik\Desktop\app-image\consumer\src\main\java\com\br\mm\config\SpringSecurityConfig.java
+C:\Users\kolarik\Desktop\app-image\consumer\src\main\java\com\br\mm\config\SwaggerConfig.java
+C:\Users\kolarik\Desktop\app-image\consumer\src\main\java\com\br\mm\model\ImageInfoSerializer.java
+C:\Users\kolarik\Desktop\app-image\consumer\src\main\java\com\br\mm\model\ImageInfoDeserializer.java
+C:\Users\kolarik\Desktop\app-image\consumer\src\main\java\com\br\mm\consumer\KafkaConsumer.java
+C:\Users\kolarik\Desktop\app-image\consumer\src\main\java\com\br\mm\model\ImageInfo.java
+C:\Users\kolarik\Desktop\app-image\consumer\src\main\java\com\br\mm\service\ImageService.java

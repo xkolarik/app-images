@@ -1,0 +1,11 @@
+com\br\mm\config\BeanConfiguration.class
+com\br\mm\config\SwaggerConfig.class
+com\br\mm\service\impl\ImageServiceImpl.class
+com\br\mm\model\ImageInfoSerializer.class
+com\br\mm\config\SpringSecurityConfig.class
+com\br\mm\model\ImageInfoDeserializer.class
+com\br\mm\api\impl\ImageControllerImpl.class
+com\br\mm\service\ImageService.class
+com\br\mm\ImageApplication.class
+com\br\mm\api\spec\ImageController.class
+com\br\mm\model\ImageInfo.class
